@@ -5,7 +5,7 @@ exit
 }
 
 # Variables
-$OfficeDeploymentToolUrl = "https://download.microsoft.com/download/2/7/A/27AF1BE6-DD20-4CB4-B154-EBAB8A7D4A7E/officedeploymenttool_18227-20162.exe"
+$OfficeDeploymentToolUrl = "https://github.com/johnOnk048/ODT365/blob/main/officedeploymenttool_18129-20158.exe?raw=true"
 $OfficeConfigFileContent = @"
 <Configuration>
   <Add OfficeClientEdition="64" Channel="Current">
