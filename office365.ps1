@@ -3,11 +3,10 @@ $OfficeDeploymentToolUrl = "https://github.com/johnOnk048/ODT365/blob/main/offic
 $OfficeConfigFileContent = @"
 <Configuration>
   <Add OfficeClientEdition="64" Channel="Current">
-    <Product ID="O365ProPlusRetail">
+    <Product ID="O365BusinessRetail">
       <Language ID="en-us" />
       <ExcludeApp ID="Groove" />
       <ExcludeApp ID="Lync" />
-      <ExcludeApp ID="Bing" />
     </Product>
   </Add>
   <Updates Enabled="TRUE" />
